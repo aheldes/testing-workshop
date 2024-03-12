@@ -1,3 +1,5 @@
+from .math_operations import MathOperations
+
 def test_add_correct():
   """Tests that add function returns the sum of two numbers."""
   result = MathOperations().add(5, 3)
